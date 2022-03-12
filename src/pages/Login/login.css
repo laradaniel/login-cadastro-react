@@ -1,0 +1,89 @@
+.containerLogin{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+}
+
+.flexLogoLogin{
+    background-image: url(../../assets/img/dog.jpg);
+    background-repeat: no-repeat;
+    width: 100vh;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.flexInputLogin{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 4;
+    margin-left: 150px;
+    margin-bottom: 40px;
+}
+
+.flexInputLogin h2{
+    font-family: 'Roboto Slab';
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #121212;
+}
+
+.tituloLogin{
+    font-family: 'Roboto Slab';
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #121212;
+}
+
+.inputEmailLogin{
+    margin-bottom: 20px;
+}
+
+.inputPasswordLogin{
+    margin-bottom: 30px;
+}
+
+.inputLogin{
+    border: none;
+    width: 50vh;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #d5d2d2;
+}
+
+.flexInputLogin button{
+    width: 90px;
+    height: 30px;
+    background-color: #f5dc21;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Roboto Slab';
+    font-size: 13px;
+    color: #121212;
+    margin-top: 20px;
+}
+
+.cadastro{
+    font-family: 'Roboto Slab';
+    margin-top: 15vh;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.cadastro h5{
+    text-decoration: none;
+    color: #121212;
+}
+
+.cadastro a{
+    text-decoration: none;
+    color: #121212;
+    font-size: 25px;
+    font-weight: bold;
+}
