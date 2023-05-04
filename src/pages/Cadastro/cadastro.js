@@ -8,7 +8,7 @@ function Cadastro(){
         <div className='containerCadastro'>
            
             <div className='flexInputCadastro'>
-                <h2>Cadastre-se</h2>
+                <h2>Cadastre-se!</h2>
 
                 <div className='cadastroInput'>
                     <div>
